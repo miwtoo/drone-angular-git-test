@@ -10,6 +10,6 @@ steps:
 
 steps:
 - name: install
-  image: node
+  image: trion/ng-cli
   commands:
   - ng serve --port 8080
