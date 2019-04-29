@@ -2,8 +2,14 @@ kind: pipeline
 name: default
 
 steps:
-- name: frontend
+- name: install
   image: node
   commands:
   - npm install
-  - npm test
+  - npm install -g @angular/cli
+
+steps:
+- name: install
+  image: node
+  commands:
+  - ng serve --port 8080
