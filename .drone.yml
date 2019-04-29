@@ -19,7 +19,7 @@ steps:
 
 - name: publish
   image: plugins/github-release
-  secrets: cbc7e0422c91f0e1254271499f7689ec8319a65d
+  secrets: 048e6ebf78e1d40f3c931aee68a752951c3a70ca
   settings:
     files: dist/drone-angular-git-test/*
   when:
