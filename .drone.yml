@@ -3,7 +3,7 @@ name: default
 
 steps:
 - name: install
-  image: node
+  image: trion/ng-cli
   commands:
     - npm install
 
