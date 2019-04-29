@@ -7,7 +7,7 @@ steps:
   commands:
     - npm install
 
-- name: test
+- name: build
   image: johnpapa/angular-cli
   commands:
-    - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+    - ng build --prod
