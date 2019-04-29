@@ -1,1 +1,0 @@
-# drone-angular-git-test
