@@ -7,6 +7,11 @@ steps:
   commands:
     - npm install
 
+- name: test
+  image: trion/ng-cli-karma:6.2.1
+  commands:
+    - ng test --progress false --watch false
+
 - name: build
   image: johnpapa/angular-cli
   commands:
