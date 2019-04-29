@@ -22,3 +22,7 @@ steps:
   secrets: cbc7e0422c91f0e1254271499f7689ec8319a65d
   settings:
     files: dist/drone-angular-git-test/*
+  when:
+      event: tag
+      ref: refs/tags/*beta*
+      status: success
