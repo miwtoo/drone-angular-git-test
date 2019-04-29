@@ -5,9 +5,9 @@ steps:
 - name: install
   image: trion/ng-cli
   commands:
-    - npm install
+    - sudo npm install
 
 - name: run
   image: trion/ng-cli
   commands:
-    - ng serve --port 8080
+    - sudo ng serve --port 8080
