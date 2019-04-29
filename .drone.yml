@@ -16,3 +16,8 @@ steps:
   image: johnpapa/angular-cli
   commands:
     - ng build --prod
+
+- name: publish
+  image: plugins/github-release
+  settings:
+    files: dist/*
