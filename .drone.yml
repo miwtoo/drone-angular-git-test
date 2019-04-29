@@ -3,11 +3,11 @@ name: default
 
 steps:
 - name: install
-  image: trion/ng-cli
+  image: johnpapa/angular-cli
   commands:
-    - sudo npm install
+    - npm install
 
 - name: run
-  image: trion/ng-cli
+  image: johnpapa/angular-cli
   commands:
-    - sudo ng serve --port 8080
+    - ng serve --port 8080
