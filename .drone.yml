@@ -19,7 +19,7 @@ steps:
 
 - name: publish
   image: plugins/github-release
-  secrets: 048e6ebf78e1d40f3c931aee68a752951c3a70ca
+  api-key: 048e6ebf78e1d40f3c931aee68a752951c3a70ca
   settings:
     files: dist/drone-angular-git-test/*
   when:
