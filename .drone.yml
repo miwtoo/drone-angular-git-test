@@ -16,3 +16,10 @@ steps:
   image: johnpapa/angular-cli
   commands:
     - ng build --prod
+
+- name: publish  
+  image: plugins/gh-pages
+  settings:
+    username: miwtoo
+    password: 0c9f6312a0637621542a4a18bdc68b88cc150646
+    pages_directory: dist/drone-angular-git-test
