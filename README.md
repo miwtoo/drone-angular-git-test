@@ -1,7 +1,5 @@
 https://cloud.drone.io/ [![Build Status](https://cloud.drone.io/api/badges/miwtoo/drone-angular-git-test/status.svg)](https://cloud.drone.io/miwtoo/drone-angular-git-test) 
 
-self-host ngrok 
-[![Build Status](https://e2c0ffaa.ngrok.io/api/badges/miwtoo/drone-angular-git-test/status.svg)](https://e2c0ffaa.ngrok.io/miwtoo/drone-angular-git-test)
 # DroneAngularGitTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
