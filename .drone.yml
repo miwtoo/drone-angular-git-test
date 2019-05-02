@@ -21,5 +21,5 @@ steps:
   image: plugins/gh-pages
   settings:
     username: miwtoo
-    password: AAAAB3NzaC1yc2EAAAADAQABAAABAQDN64LS/cZ49zS+XZCt2JOWiPnT5kCMBGgGLtxfrMfHZiW/BxXB0rnB7Ejb8cbyJxdi+hAyIOb9xYvlcd7Za1mb5TbNF6wI4G6oVoEVJi0ql4tInDKKrNi4Z5tYwNJpnJrQ5XuCv6YsSiUHM1ytmSzmPc8PFdWijOnDRWBDT4gqRxzkOpWEx/Xek7067/mcVS7XKil99b8APyfrwGBq77w0m0FZijITmwqZ885SejZcIYFOpaQ3BYsJfI04g1NhPbuttEDdc0nToQLgOC8lEaIllmUWf2XKNYHwABGxIvlTO8Z9mj31A7PpRN9FqrRCt7iLtMTzhjv/Rxvcqa0pKNEn
+    password: 10133a7b
     pages_directory: dist/drone-angular-git-test
