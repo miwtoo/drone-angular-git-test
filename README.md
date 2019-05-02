@@ -1,4 +1,4 @@
-https://cloud.drone.io/ [![Build Status](https://cloud.drone.io/api/badges/miwtoo/drone-angular-git-test/status.svg)](https://cloud.drone.io/miwtoo/drone-angular-git-test) 
+[![Build Status](https://cloud.drone.io/api/badges/miwtoo/drone-angular-git-test/status.svg)](https://cloud.drone.io/miwtoo/drone-angular-git-test) 
 
 # DroneAngularGitTest
 
